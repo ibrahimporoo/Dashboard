@@ -1,0 +1,225 @@
+/* Start Box */
+.d-flex {
+	display: flex;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.align-center {
+	align-items: center;
+}
+.space-between {
+	justify-content: space-between;
+}
+.d-grid {
+	display: grid;
+}
+.gap-20 {
+	gap: 20px;
+}
+.d-block {
+	display: block;
+}
+@media (max-width: 767px) {
+	.block-mobile {
+		display: block;
+	}
+	.hide-mobile {
+		display: none;
+	}
+}
+/* End Box */
+/* Start Colors + Text */
+.bg-white {
+	background-color: #fff;
+}
+.bg-eee {
+	background-color: #eee;
+}
+.bg-blue {
+	background-color: var(--blue-color);
+}
+.bg-orange {
+	background-color: var(--orange-color);
+}
+.bg-green {
+	background-color: var(--green-color);
+}
+.bg-red {
+	background-color: var(--red-color);
+}
+.txt-c {
+	text-align: center;
+}
+.c-black {
+	color: #000;
+}
+.c-grey {
+	color: var(--grey-color);
+}
+.c-orange {
+	color: var(--orange-color);
+}
+.c-blue {
+	color: var(--blue-color);
+}
+.c-green {
+	color: var(--green-color);
+}
+.fs-15 {
+	font-size: 15px;
+}
+.fs-14 {
+	font-size: 14px;
+}
+.fs-13 {
+	font-size: 13px;
+}
+.fs-20 {
+	font-size: 20px;
+}
+.fw-bold {
+	font-weight: bold;
+}
+@media (max-width: 767px) {
+	.text-c-mobile {
+		text-align: center;
+	}
+	.fs-10-mobile {
+		font-size: 10px;
+	}
+	.fs-12-mobile {
+		font-size: 12px;
+	}
+	.fs-13-mobile {
+		font-size: 13px;
+	}
+	.fs-14-mobile {
+		font-size: 14px;
+	}
+	.fs-15-mobile {
+		font-size: 15px;
+	}
+	.fs-18-mobile {
+		font-size: 18px;
+	}
+	.fs-22-mobile {
+		font-size: 22px;
+	}
+}
+/* End Colors + Text */
+/* Start Padding + Margin + Radius */
+.p-20 {
+	padding: 20px;
+}
+.p-10 {
+	padding: 10px;
+}
+.p-15 {
+	padding: 15px;
+}
+.m-20 {
+	margin: 20px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mt-15 {
+	margin-top: 15px;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mt-5 {
+	margin-top: 5px;
+}
+.me-20 {
+	margin-right: 20px;
+}
+.me-10 {
+	margin-right: 10px;
+}
+.me-5 {
+	margin-right: 5px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-5 {
+	margin-bottom: 5px;
+}
+.ms-20 {
+	margin-left: 20px;
+}
+.rad-6 {
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+}
+.rad-10 {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.b-0 {
+	border: 0;
+}
+.border-ccc {
+	border: 1px solid #ccc;
+}
+/* End Padding + Margin + Radius */
+/* Start Size */
+.w-full {
+	width: 100%;
+}
+.w-fit {
+	width: fit-content;
+}
+.h-full {
+	height: 100%;
+}
+/* End Size */
+/* Start Position */
+.p-relative {
+	position: relative;
+}
+/* End Position */
+/* Start Components */
+.center-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.between-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.btn-shape {
+	color: #fff;
+	padding: 6px;
+	border-radius: 6px;
+	transition: 0.3s;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+/* End Components */
